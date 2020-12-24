@@ -1,0 +1,26 @@
+.editDetails-container{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width : 900px){
+    .editDetails-container{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width : 700px){
+    .editDetails-container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .editDetails-container{
+        width: 100%;
+    }
+}

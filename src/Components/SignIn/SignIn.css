@@ -1,0 +1,115 @@
+.signin-container{
+    width: 40%;
+    background-color: #2014ff8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.signin-container h2{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.error-container{
+    width: 75%;
+    background-color: red;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.input-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.input-container input{
+    height: 1.8rem;
+    width: 50%;
+}
+
+
+.input-container button{
+    height: 1.8rem;
+    width: 50%;
+    background-color: white;
+    border: none;
+    color: blue;
+}
+
+@media screen and (max-width : 1200px){
+    .signin-container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 900px){
+    .signin-container{
+        width: 60%;
+    }
+
+    .signin-container h2{
+        font-size: 1.8rem;
+    }
+
+    .input-container{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width : 650px){
+    .signin-container{
+        width: 70%;
+    }
+
+    .signin-container h2{
+        font-size: 1.8rem;
+    }
+
+    .input-container{
+        font-size: 0.9rem;
+    }
+
+    .input-container input{
+        width: 60%;
+    }
+
+    .input-container button{
+        width: 60%;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media screen and (max-width : 360px){
+    .signin-container{
+        width: 90%;
+    }
+
+    .signin-container h2{
+        font-size: 1.5rem;
+    }
+
+    .input-container{
+        font-size: 0.8rem;
+        letter-spacing: normal;
+    }
+
+    .input-container input{
+        width : 65%;
+    }
+}
+
